@@ -1,0 +1,44 @@
+name: car_retal
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # HTTP requests (API)
+  http: ^1.2.0
+
+  # Open links (phone, email, WhatsApp, maps)
+  url_launcher: ^6.2.6
+
+  # Pick image from camera or gallery
+  image_picker: ^1.1.2
+
+  # Local storage (login state)
+  shared_preferences: ^2.2.2
+
+  # Google Maps
+  google_maps_flutter: ^2.6.0
+
+  # Charts (Line, Bar, Pie, etc.)
+  fl_chart: ^0.66.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/brands/
